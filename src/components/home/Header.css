@@ -1,0 +1,60 @@
+header{
+    background: url(../../assets/3.jpg); 
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: 100vh;
+    overflow: hidden;
+    padding-left: 120px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+header .row{
+    padding: 90px 0px;
+}
+
+header h2 {
+    color: #43121d;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+    width: 90%;
+}
+
+header p {
+    color: #333;
+    margin: 15px 0px;
+}
+
+header button {
+    width: 140px ;
+    height: 40px;
+    background-color: #ac2947;
+    box-sizing: border-box;
+    border: 1px solid #ac2947;
+    text-align: center;
+    color: #fff;
+    margin: 20px 10px 20px 0px;
+    font-weight: bold;
+}
+
+header button:last-of-type{
+    background-color: #fff;
+    color: #000;
+}
+
+header button:hover{
+    transition: 0.2s ease-in-out;
+}
+
+header button:first-of-type:hover{
+    background-color: #fff;
+    color: #ac2947;
+}
+header button:last-of-type:hover{
+    background-color: #ac2947;
+    color: #fff;
+}
+
